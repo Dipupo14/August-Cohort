@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    border: 0.1em solid blue;
+    height: 500px;
+    width: 600px;
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    perspective: 1000px;
+}
+
+.box1{
+    border: 0.1em solid blue;
+    height: 100px;
+    width: 100px;
+    background-color: #000;
+     transition-property: transform border border-radius;
+    transition-duration:2s;
+    transition-timing-function: ease-in-out;
+    transition-delay: 1s;
+}
+
+.box1:hover{
+    transform: translate(120px, 50px) rotate(150deg) scale(2, 2);
+    border: 0.1em dotted red;
+    border-radius: 50%;
+   
+}
+
+.box2{
+    border: 0.1em solid blue;
+    height: 100px;
+    width: 100px;
+    transform: scaleX(2);
+    background-color: #000;
+}
+
+
+
+.box3{
+    border: 0.1em solid blue;
+    height: 100px;
+    width: 100px;
+    background-color: #000;
+}
+
+.box3:hover{
+    transform: skew(50deg);
+}
+
+
+.animate{
+    border: 0.1em solid blue;
+    height: 100px;
+    width: 100px;
+    background-color: #000;
+    transition-property: transform border border-radius;
+    transition-duration:2s;
+    transition-timing-function: ease-in-out;
+    transition-delay: 1s;
+    animation-name: move;
+}
+
+@keyframes move{
+    from{
+        height: 100px;
+        width: 100px;
+    }
+
+    to{
+        height: 300px;
+        width: 300px;
+    }
+}

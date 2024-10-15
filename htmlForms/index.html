@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML FORMS</title>
+</head>
+<body>
+    <h1><center style="background-color:green; color: azure;">Form</center></h1>
+    
+    <form action=" "method="post">
+        <label for="Firstname">Firstname</label>
+        <input type="text" placeholder="Tesleem" id="Firstname" required>
+        <br><br>
+        <label for="Lastname">Lastname</label>
+        <input type="text" placeholder="Esuola" id="Lastname" required>
+        <br><br>
+        <label for="mobile number">Phone number</label>
+        <input type="number" placeholder="07038823175" id="mobile number" required>
+        <br><br>
+        <label for="email">email</label>
+        <input type="email" placeholder="esuola.tesleem@gmail.com" id="email" required>
+        <br><br>
+        <label for="Password">Password</label>
+        <input type="Password" placeholder="Password" id="Password" required>
+        <br><br>
+        <label for="">Do you wish to continue</label>
+        <input type="checkbox">
+
+        <br><br>
+        <strong><label for="Gender">Gender</label></strong>
+        <br><br>
+        <label for="Male">Male</label>
+        <input type="radio" name="Gender" value="male" id="male">
+        <label for="Female">Female</label>
+        <input type="radio" name="Gender" value="female" id="female">
+        <br><br>
+        <!-- Assignment -->
+         <!-- Design a standard admission form -->
+        <label for="Gender">Gender</label>
+        <select name="Gender" id="Gender">
+            <option value="Male">Male</option>
+            <option value="Female">Female</option>
+            <option value="Others">Others</option>
+        </select>
+        <br><br>
+        <input type="submit" value="submit">
+    </form>
+</body>
+</html>

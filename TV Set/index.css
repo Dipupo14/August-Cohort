@@ -1,0 +1,268 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgba(123, 123, 255, 0.753);
+}
+
+.tvset {
+    
+    margin: 20px 20px 0px 20px;
+    /* display: flex;
+    align-items: center;
+    justify-content: center;*/
+    position: relative;
+}
+
+.speaker1 {
+    border: 0.009em solid black;
+    width: 70px;
+    height: 370px;
+    position: absolute;
+    top: 130px;
+    left: 800px;
+    background-color: black;
+
+}
+
+
+.basespeak1 {
+    border: 0.009em solid black;
+    width: 50px;
+    height: 30px;
+    position: absolute;
+    top: 460px;
+    left: 160px;
+    background-color: rgb(33, 33, 33)
+}
+
+.basespeak2 {
+    border: 0.009em solid black;
+    width: 50px;
+    height: 30px;
+    position: absolute;
+    top: 460px;
+    left: 810px;
+    background-color: rgb(33, 33, 33)
+}
+
+
+.speaker2 {
+    border: 0.009em solid black;
+    width: 70px;
+    height: 370px;
+    position: absolute;
+    top: 130px;
+    left: 150px;
+    background-color: black;
+}
+
+.circle1 {
+    border: 0.2em solid #fff;
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    border-radius: 60px;
+    top: 150px;
+    left: 160px;
+    
+}
+
+.circle2 {
+    border: 0.2em solid #fff;
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    border-radius: 60px;
+    top: 250px;
+    left: 160px;
+    
+}
+
+.circle5 {
+    border: 0.2em solid #fff;
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    border-radius: 30px;
+    top: 350px;
+    left: 170px;
+}
+
+
+.circle3 {
+    border: 0.2em solid #fff;
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    border-radius: 60px;
+    top: 150px;
+    left: 810px;
+}
+
+.circle4 {
+    border: 0.2em solid #fff;
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    border-radius: 60px;
+    top: 250px;
+    left: 810px;
+}
+
+.circle6 {
+    border: 0.2em solid #fff;
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    border-radius: 30px;
+    top: 350px;
+    left: 820px;
+    
+}
+
+.circle1a {
+    border: 0.3em solid #fff;
+    width: 5px;
+    height: 5px;
+    position: absolute;
+    border-radius: 10px;
+    top: 170px;
+    left: 180px;
+}
+
+.circle2a {
+    border: 0.3em solid #fff;
+    width: 5px;
+    height: 5px;
+    position: absolute;
+    border-radius: 10px;
+    top: 270px;
+    left: 180px;
+}
+
+.circle3a {
+    border: 0.2em solid #fff;
+    width: 5px;
+    height: 5px;
+    position: absolute;
+    border-radius: 5px;
+    top: 362px;
+    left: 182px;
+}
+
+.circle4a {
+    border: 0.3em solid #fff;
+    width: 5px;
+    height: 5px;
+    position: absolute;
+    border-radius: 10px;
+    top: 170px;
+    left: 830px;
+}
+
+.circle5a {
+    border: 0.3em solid #fff;
+    width: 5px;
+    height: 5px;
+    position: absolute;
+    border-radius: 10px;
+    top: 270px;
+    left: 830px;
+}
+
+.circle6a {
+    border: 0.2em solid #fff;
+    width: 5px;
+    height: 5px;
+    position: absolute;
+    border-radius: 5px;
+    top: 362px;
+    left: 832px;
+}
+
+
+.base {
+    border: 0.009em solid black;
+    width: 580px;
+    height: 90px;
+    position: absolute;
+    top: 410px;
+    left: 220px;
+    border: none;
+    background-color: white;
+
+}
+
+.base1 {
+    border: 0.009em solid black;
+    width: 120px;
+    height: 60px;
+    position: absolute;
+    top: 425px;
+    border: none;
+    left: 230px;
+    background-color: rgba(128, 128, 128, 0.29);
+}
+
+.base2 {
+    border: 0.009em solid black;
+    width: 290px;
+    height: 60px;
+    position: absolute;
+    top: 425px;
+    border: none;
+    left: 365px;
+    background-color:  rgba(128, 128, 128, 0.29);
+}
+
+
+.base3 {
+    border: 0.009em solid black;
+    width: 120px;
+    height: 60px;
+    position: absolute;
+    top: 425px;
+    left: 670px;
+    border: none;
+    background-color: rgba(128, 128, 128, 0.29);
+}
+
+
+.tv {
+    border: 0.009em solid black;
+    width: 500px;
+    height: 280px;
+    position: absolute;
+    top: 110px;
+    left: 260px;
+    background-color: black;
+}
+
+.tv video {
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    width: 490px;
+    height: 270px;
+}
+
+
+.hold .stand1 {
+    position: absolute;
+    top: 375px;
+    left: 310px;
+    font-size: 50px;
+    height: 50px;
+}
+
+.hold .stand2 {
+    position: absolute;
+    top: 375px;
+    left: 660px;
+    font-size: 50px;
+    height: 50px;
+}

@@ -1,0 +1,31 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    padding: 50px;
+    background-color: rgba(179, 170, 50, 0.217);
+}
+
+.card-custom{
+    height: 200px;
+    width: 300px;
+    padding: 15px 10px;
+    border-radius: 5px;
+}
+
+.card-custom .card-title{
+    color: rgba(20, 93, 190, 0.801);
+}
+
+.container .p-3 img{
+    width: 80px;
+}
+
+.container .p-3 .iimg{
+    width: 30px;
+}
+
+

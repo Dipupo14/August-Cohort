@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+div .box{
+   text-align: center; 
+}
+
+
+.box{
+    background-position: middle;
+    padding: 50px 100px 50px 400px;
+    margin: 0px 50px 0px 50px;
+
+}
+
+.box .dawn{
+    border: 0.2em solid #000;
+    margin-inline: 20px;
+    /* padding: 50px 200px 50px 200px; */
+    height: 300px;
+    width: 300px;
+    background-image: linear-gradient( rgba(255, 255, 0, 0.304) 25%,  rgba(238, 255, 0, 0.224), rgba(217, 255, 0, 0.132)),  url(../Images/road6.jpeg);
+    background-repeat: no-repeat;
+    background-size:cover;
+
+    
+
+}
+
+.box .wane{
+    border: 0.2em solid #000;
+    margin-inline: 20px;
+    /* padding: 50px 50px 50px 50px; */
+    height: 300px;
+    width: 300px;
+    background-image:  linear-gradient(rgba(255, 0, 0, 0.489) 25%, rgba(255, 0, 200, 0.361), rgba(255, 0, 111, 0.212) ),  url(../Images/road6.jpeg);
+    background-repeat: no-repeat;
+    background-size:cover;
+}

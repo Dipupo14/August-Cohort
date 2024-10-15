@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admission Portal</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="main">
+        <div class="navbar">
+            <div class="icon">
+                <h2 class="logo">DSchool</h2>
+            </div>
+
+            <div class="menu">
+                <ul>
+                    <li><a href="#">HOME</a></li>
+                    <li><a href="#">ABOUT</a></li>
+                    <li ><a href="#">SERVICE</a></li>
+                    <li><a href="#">DESIGN</a></li>
+                    <li><a href="#">REGISTER</a></li> 
+                </ul>
+            </div>
+
+
+            <div class="search">
+                <input class="srch" type="search" name="" placeholder="Type To text">
+                <a href="#"><button class="btn">search</button></a>
+            </div>
+
+
+        </div>
+        <hr>
+
+        <div class="content">
+            <h2>Registration Form </h2>
+        </div>
+
+        <div class="instruction">
+            <p>
+                <strong> Enter your admission information below:</strong>
+            </p>
+        </div>
+        <hr>
+        <br><br>
+
+        <div class="dtl">
+            <form method="post">
+
+                <div>
+                    <label for="">Full Name</label>
+                    <input type="text" placeholder="First Name"  required>
+                    <input type="text" placeholder="Middle Name"  required>
+                    <input type="text" placeholder="Last Name"  required>
+            
+                </div>
+                <br>
+            
+                <div>
+                    <label for="email">E-mail Address</label>
+                    <input type="text" placeholder="e.g esuola.tesleem@gmail.com" id="email" required>
+                </div>
+
+                <br>
+
+                <div>
+                    <label for="Password">Password</label>
+                    <input type="password" placeholder="Password" id="Password" required>
+                </div>
+            
+                <br>
+                <div>
+                    <label for="">Phone</label>
+                    <input type="number" placeholder="07038823175">
+                </div>
+                <br>
+            
+                <div>
+                    <label for="Country">Country</label>
+                    <select name="country" id="Country" required>
+                        <option value="Nigeria">Nigeria</option>
+                        <option value="Ghana">Ghana</option>
+                        <option value="South Africa">South Africa</option>
+                        <option value="Others">Others</option>
+            
+                    </select>
+                </div>
+            
+                <br>
+                    <div><label for="Gender">Gender:</label>
+                        <label for="Male">Male</label>
+                        <input type="radio" name="Gender" value="male" id="male">
+                        <label for="Female">Female</label>
+                        <input type="radio" name="Gender" value="female" id="female">
+                    </div>
+                <br>
+            
+                <div>
+                    <label for="">Birthday</label>
+                    <input type="date" name="Birthday" required>
+                </div>
+                <br>
+                
+                <div>
+                    <label for="Department">Department</label>
+                    <select name="Department" id="Department" required>
+                        <option value="Science">Science</option>
+                        <option value="Commercial">Commercial</option>
+                        <option value="Art">Art</option>
+            
+                    </select>
+                </div>
+
+                <br>
+
+                <div>
+                    <label for="Address">Address</label>
+                    <input type="text" placeholder="e.g No 26, Irewole Street, Ibadan, Oyo State" id="Address" required>
+                </div>
+                
+                <br><br>
+
+                <div class="sbt">
+                    <input type="submit" value="submit">
+                </div>
+            
+                <br>
+
+            
+            </form>
+        </div>
+    </div>
+
+</body>
+</html>
